@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'slidebarUi';
+
+
+  _opened: boolean = false;
+
+  _toggleOpened(): void {
+    this._opened = !this._opened;
+  }
+
 }
